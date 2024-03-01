@@ -44,6 +44,14 @@
 	- <del>I'm using the Pepe model and I get the following error when using emotes: `[Error : Unity Log] Array index (-1) is out of bounds (size=0) `, but I have no problem playing. If you have any problems, please let me know.</del>
 	
 	- The above issue in 1.1.0 has been fixed in 1.1.1 Thanks skeupcrobet for the fix!
+
+If you have something to say to me directly or have a request that you need to make and I'm slow to respond, please message me on Discord
+
+My Discord is @humyo and the first message should say `깃허브에서 보고 메시지 드립니다` and I'll check it out and get back to you.
+
+I don't speak English, so if you do, please include `저는 영어권 사람이기 때문에 영어로 대답해주세요` after that message and I'll do my best to use a translator to get back to you.
+
+I answer in Korean by default
 	
 - Kor
 	- 알 수 없는 이유로 가슴 부분이 사라집니다 1.0.1 버전까지의 문제입니다
@@ -56,6 +64,10 @@
 	
 	- 위 1.1.0 버전의 문제는 1.1.1에서 해결되었습니다 해결해주신 skeupcrobet님 감사합니다!
 	
+
+만약 저에게 직접 할 말이 있거나 필요한 요청이 있는데 확인이 늦어진다면 Discord로 메시지를 보내주세요
+
+제 디스코드는 @humyo 이며 첫 메시지로 `깃허브에서 보고 메시지 드립니다`라고 적어서 보내주시면 확인후 답장 드리겠습니다
 
 # Preview
 - https://youtu.be/4xoadthJAmo
