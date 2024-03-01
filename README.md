@@ -1,32 +1,69 @@
-# LethalCompany_ModelReplacementAPI
+# More Character Selector
+![Preview1](https://i.imgur.com/o5xNaWw.png)
 
-Helps the user create model replacement mods in Lethal Company. [See the wiki](https://github.com/BunyaPineTree/LethalCompany_ModelReplacementAPI/wiki) for more info. Developers [see the SDK repo(in progress)](https://github.com/BunyaPineTree/LethalCompany_ModelReplacementSDK) if you want to contribute to its development.    
+- 페페가 추가되었습니다! 페페와 함께 폐지 줍기를 즐겨보세요.
 
-Features
--
-- A unity package manager based workflow to simplify model replacement and assetbundle creation.
-- A skin registry that allows the user to set specific skin names to specific models, default models replacements, or override that entirely and make all players the same model. It is also possible to except a model replacement from the registry entirely, and implement your own logic.
-- Native support for [UnityJigglePhysics](https://github.com/naelstrof/UnityJigglePhysics) as a free and highly functional method to implement bone physics into your model without needing to struggle with Assembly Definitions. 
-- Seemingly client side
-- More Company cosmetic support
-- TooManyEmotes, MoreEmotes, TooManyEmotes support
-- MirrorDecor, 3rdPerson, LCThirdPerson, Recording Camera support
+- 이 모드는 https://github.com/x753/Lethal-Company-More-Suits 에 의존하지만 모델은 https://github.com/BunyaPineTree/LethalCompany_ModelReplacementAPI 에서 지원합니다.
 
-How it works
--
-This mod maps the bone rotations from the base game character model to the unity Humanoid Avatar Definition, and then from your model's humanoid avatar to the underlying bones. A result of this is that you do not need to make custom animations, but the result will not be as high quality as if you did and made your model replacement mod from scratch. 
-Players with an active model replacement are given a `BodyReplacement` component derived from `BodyReplacementBase`, which on each call of `Update()` sets your model replacement's bone rotations via the above method. The mod maker can set which skins activate any given `BodyReplacement` with the skin registry.
-* See the Miku example project for a demonstration on how your registered model replacement can make use of bepinex configs. 
+- 모델 사용을 허락해주신 Yue Ling님 감사드리며 이 제작자의 모델을 원하시는 분들은 맨 아래의 크래딧의 링크를 찾아가 구매하시기 바랍니다.
 
-Known issues
--
-* Ragdoll behaves strangely at times
-* Blood decals are not currently visible on the ragdoll replacement.
-* Dying at the company may make the dead individual respawn without a model, but it may also return at a later point in time. 
+- 페페의 대한 저작권은 https://creativecommons.org/licenses/by/4.0/deed.ko 를 따르며 크레딧에 링크와 변경점을 적어두겠습니다.
 
-Unknown issues
--
-* Many.
+- Pepe has been added! Have fun scavenging for scrap paper with Pepe.
 
-And a special thanks to squire, mina, linkoid, notnotnotswipez, naelstrof and everybody else who has been a huge help. 
+- The mod relies on https://github.com/x753/Lethal-Company-More-Suits, but the models are supported by https://github.com/BunyaPineTree/LethalCompany_ModelReplacementAPI.
 
+- Thanks to Yue Ling for allowing us to use her model, and if you'd like to purchase a model from this creator, please visit the link in the credits at the bottom.
+
+- The copyright for Pepe is https://creativecommons.org/licenses/by/4.0/deed.en, and I'll put a link and my changes in the credits.
+
+# moresuit 없이 클라이언트전용으로 실행하는 방법
+
+1. Manual Download를 눌러서 직접 받은 뒤
+
+2. 압축파일에 있는 dll 파일을 따로 빼내서 plugins 폴더에 집어넣고
+
+3. Config에 있는 Suits to enable에 설명에 적혀있는대로 하고 싶은 슈트를 입력할 것
+
+# How to run without More Suits
+
+1. click Manual Download
+
+2. Find MoreCharacterSelector.dll inside the zip file and place it in the BepInEx\plugins folder
+
+3. Find MoreCharacterSelector's Config and change the Suits to enable entry to the name of the suit you want to replace it with
+
+# Known Issues and memo
+- Eng
+	- Chest area disappears for unknown reason Issue before version 1.0.1
+	
+	- Fixed a bug that caused chests to disappear in version 1.0.4
+	
+	- <del>Since 1.1.0, I'm getting about 3 minutes of lag for unknown reasons and it gets worse when using mods like 3rdperson. I don't know why.</del>
+	
+	- <del>I'm using the Pepe model and I get the following error when using emotes: `[Error : Unity Log] Array index (-1) is out of bounds (size=0) `, but I have no problem playing. If you have any problems, please let me know.</del>
+	
+	- The above issue in 1.1.0 has been fixed in 1.1.1 Thanks skeupcrobet for the fix!
+	
+- Kor
+	- 알 수 없는 이유로 가슴 부분이 사라집니다 1.0.1 버전까지의 문제입니다
+	
+	- 1.0.4 버전에서 가슴이 사라지는 버그를 해결했습니다
+	
+	- <del>1.1.0부터 알 수 없는 이유로 3분정도의 랙이 발생합니다 3rdperson같은 모드를 사용하면 더욱 심해집니다 왜 그런지 모르겠습니다</del>
+	
+	- <del>페페 모델을 사용하는 중 이모트를 사용할때 `[Error  : Unity Log] Array index (-1) is out of bounds (size=0)`이라는 애러가 발생하는데 플레이 하는데 아무런 문제가 없습니다 만약 문제가 발생하면 저에게 알려주세요</del>
+	
+	- 위 1.1.0 버전의 문제는 1.1.1에서 해결되었습니다 해결해주신 skeupcrobet님 감사합니다!
+	
+
+# Preview
+- https://youtu.be/4xoadthJAmo
+- https://youtu.be/CAidcMYF-Og
+- https://youtu.be/A2G1mw3lEII
+
+# Cradit
+- Yue Ling's Akula (Cozy Winter Edition)-https://yuumaandyueling.booth.pm/items/5344969
+
+- demidrew's Pepe Model -https://sketchfab.com/3d-models/pepe-342e3f7a54d14e44b08af6c882a61181#ownership
+Changed -> Modify textures, add bones, and export FBX
