@@ -29,10 +29,10 @@ namespace MoreCharacterSelector
             //enableModelAsDefaultAkula = config.Bind<bool>("Suits to Replace Settings", "Enable Model as default (Akula)", false, "Enable to model replace every suit that hasn't been otherwise registered.");
             //enableModelForAllSuitsPepe = config.Bind<bool>("Suits to Replace Settings", "Enable Model for all Suits (Pepe)", false, "Enable to model replace every suit. Set to false to specify suits");
             //enableModelAsDefaultPepe = config.Bind<bool>("Suits to Replace Settings", "Enable Model as default (Pepe)", false, "Enable to model replace every suit that hasn't been otherwise registered.");
-            suitNamesToEnableModelAkula = config.Bind<string>("Suits to Replace Settings (Akula)", "Suits to enable Model for(Àû¿ëÇÒ ½´Æ® ÀÌ¸§)", "Akula", "Enter a comma separated list of suit names.(Additionally, [Default,Orange suit,Green suit,Pajama suit,Hazard suit])(ÇÑ±¹¾îÆĞÄ¡±âÁØ, [Default,ÁÖÈ²»ö½´Æ®,ÃÊ·Ï»ö½´Æ®,ÆÄÀÚ¸¶½´Æ®,¹æÈ£º¹½´Æ®,º¸¶ó»ö½´Æ®)");
-            suitNamesToEnableModelPepe = config.Bind<string>("Suits to Replace Settings (Pepe)", "Suits to enable Model for(Àû¿ëÇÒ ½´Æ® ÀÌ¸§)", "Pepe", "Enter a comma separated list of suit names.(Additionally, [Default,Orange suit,Green suit,Pajama suit,Hazard suit])(ÇÑ±¹¾îÆĞÄ¡±âÁØ, [Default,ÁÖÈ²»ö½´Æ®,ÃÊ·Ï»ö½´Æ®,ÆÄÀÚ¸¶½´Æ®,¹æÈ£º¹½´Æ®,º¸¶ó»ö½´Æ®)");
-
+            suitNamesToEnableModelAkula = config.Bind<string>("Suits to Replace Settings (Akula)", "Suits to enable Model for(ì ìš©í•  ìŠˆíŠ¸ ì´ë¦„)", "Akula", "Enter a comma separated list of suit names.(Additionally, [Default,Orange suit,Green suit,Pajama suit,Hazard suit])(í•œêµ­ì–´íŒ¨ì¹˜ê¸°ì¤€, [Default,ì£¼í™©ìƒ‰ìŠˆíŠ¸,ì´ˆë¡ìƒ‰ìŠˆíŠ¸,íŒŒìë§ˆìŠˆíŠ¸,ë°©í˜¸ë³µìŠˆíŠ¸,ë³´ë¼ìƒ‰ìŠˆíŠ¸)");
+            suitNamesToEnableModelPepe = config.Bind<string>("Suits to Replace Settings (Pepe)", "Suits to enable Model for(ì ìš©í•  ìŠˆíŠ¸ ì´ë¦„)", "Pepe", "Enter a comma separated list of suit names.(Additionally, [Default,Orange suit,Green suit,Pajama suit,Hazard suit])(í•œêµ­ì–´íŒ¨ì¹˜ê¸°ì¤€, [Default,ì£¼í™©ìƒ‰ìŠˆíŠ¸,ì´ˆë¡ìƒ‰ìŠˆíŠ¸,íŒŒìë§ˆìŠˆíŠ¸,ë°©í˜¸ë³µìŠˆíŠ¸,ë³´ë¼ìƒ‰ìŠˆíŠ¸)");
         }
+
         private void Awake()
         {
             config = base.Config;
@@ -71,19 +71,20 @@ namespace MoreCharacterSelector
                 ModelReplacementAPI.RegisterSuitModelReplacement(item, typeof(MRPEPE));
             }
 
-
             Harmony harmony = new Harmony("com.Humyo.MoreCharacterSelector");
             harmony.PatchAll();
             Logger.LogInfo($"Plugin {"com.Humyo.MoreCharacterSelector"} is loaded!");
         }
     }
+
     public static class Assets
     {
         // Replace mbundle with the Asset Bundle Name from your unity project 
         public static string mainAssetBundleName = "MoreCharacterSelector";
         public static AssetBundle MainAssetBundle = null;
 
-        private static string GetAssemblyName() => Assembly.GetExecutingAssembly().GetName().Name.Replace(" ","_");
+        private static string GetAssemblyName() => Assembly.GetExecutingAssembly().GetName().Name.Replace(" ", "_");
+
         public static void PopulateAssets()
         {
             if (MainAssetBundle == null)
@@ -93,9 +94,7 @@ namespace MoreCharacterSelector
                 {
                     MainAssetBundle = AssetBundle.LoadFromStream(assetStream);
                 }
-
             }
         }
     }
-
 }
