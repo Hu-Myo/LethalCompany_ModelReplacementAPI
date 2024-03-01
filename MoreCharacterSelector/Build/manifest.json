@@ -1,0 +1,11 @@
+{
+  "name": "MoreCharacterSelector",
+  "version_number": "1.1.1",
+  "website_url": "https://github.com/Hu-Myo/More-Character-Selector",
+  "description": "Meet our first character, Akula, and our new character, Pepe!",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100",
+	"BunyaPineTree-ModelReplacementAPI-2.3.6",
+	"x753-More_Suits-1.4.1"
+  ]
+}
