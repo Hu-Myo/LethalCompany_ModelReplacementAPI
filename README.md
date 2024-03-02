@@ -79,3 +79,5 @@ I answer in Korean by default
 
 - demidrew's Pepe Model -https://sketchfab.com/3d-models/pepe-342e3f7a54d14e44b08af6c882a61181#ownership
 Changed -> Modify textures, add bones, and export FBX
+
+- Thanks to `skeupcrobet` and `ppaka` for solving and optimizing my poor coding skills
