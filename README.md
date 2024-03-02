@@ -1,5 +1,12 @@
 # More Character Selector
+
+<details>
+<summary>참고 이미지 / Preview</summary>
+
 ![Preview1](https://i.imgur.com/o5xNaWw.png)
+---
+![Previwe2](https://i.imgur.com/mtJMsev.png)
+</details>
 
 - 페페가 추가되었습니다! 페페와 함께 폐지 줍기를 즐겨보세요.
 
@@ -39,35 +46,23 @@
 	
 	- Fixed a bug that caused chests to disappear in version 1.0.4
 	
-	- <del>Since 1.1.0, I'm getting about 3 minutes of lag for unknown reasons and it gets worse when using mods like 3rdperson. I don't know why.</del>
+	- ~~*Since 1.1.0, I'm getting about 3 minutes of lag for unknown reasons and it gets worse when using mods like 3rdperson. I don't know why.*~~
 	
-	- <del>I'm using the Pepe model and I get the following error when using emotes: `[Error : Unity Log] Array index (-1) is out of bounds (size=0) `, but I have no problem playing. If you have any problems, please let me know.</del>
+	- ~~*I'm using the Pepe model and I get the following error when using emotes: `[Error : Unity Log] Array index (-1) is out of bounds (size=0) `, but I have no problem playing. If you have any problems, please let me know.*~~
 	
 	- The above issue in 1.1.0 has been fixed in 1.1.1 Thanks skeupcrobet for the fix!
-
-If you have something to say to me directly or have a request that you need to make and I'm slow to respond, please message me on Discord
-
-My Discord is @humyo and the first message should say `깃허브에서 보고 메시지 드립니다` and I'll check it out and get back to you.
-
-I don't speak English, so if you do, please include `저는 영어권 사람이기 때문에 영어로 대답해주세요` after that message and I'll do my best to use a translator to get back to you.
-
-I answer in Korean by default
 	
 - Kor
 	- 알 수 없는 이유로 가슴 부분이 사라집니다 1.0.1 버전까지의 문제입니다
 	
 	- 1.0.4 버전에서 가슴이 사라지는 버그를 해결했습니다
 	
-	- <del>1.1.0부터 알 수 없는 이유로 3분정도의 랙이 발생합니다 3rdperson같은 모드를 사용하면 더욱 심해집니다 왜 그런지 모르겠습니다</del>
+	- ~~*1.1.0부터 알 수 없는 이유로 3분정도의 랙이 발생합니다 3rdperson같은 모드를 사용하면 더욱 심해집니다 왜 그런지 모르겠습니다*~~
 	
-	- <del>페페 모델을 사용하는 중 이모트를 사용할때 `[Error  : Unity Log] Array index (-1) is out of bounds (size=0)`이라는 애러가 발생하는데 플레이 하는데 아무런 문제가 없습니다 만약 문제가 발생하면 저에게 알려주세요</del>
+	- ~~*페페 모델을 사용하는 중 이모트를 사용할때 `[Error  : Unity Log] Array index (-1) is out of bounds (size=0)`이라는 애러가 발생하는데 플레이 하는데 아무런 문제가 없습니다 만약 문제가 발생하면 저에게 알려주세요*~~
 	
 	- 위 1.1.0 버전의 문제는 1.1.1에서 해결되었습니다 해결해주신 skeupcrobet님 감사합니다!
 	
-
-만약 저에게 직접 할 말이 있거나 필요한 요청이 있는데 확인이 늦어진다면 Discord로 메시지를 보내주세요
-
-제 디스코드는 @humyo 이며 첫 메시지로 `깃허브에서 보고 메시지 드립니다`라고 적어서 보내주시면 확인후 답장 드리겠습니다
 
 # Preview
 - https://youtu.be/4xoadthJAmo
